@@ -1,16 +1,17 @@
-import { useNavigate } from 'react-router-dom'
 import { Button } from '../../components/button'
 import { Inline, MODE } from '../../components/inline'
 import { Stack } from '../../components/stack'
 
-const InvoiceDetail = () => {
-  const navigate = useNavigate()
+interface InvoiceDetailProps {
+  onGoBack(): void
+}
 
+const InvoiceDetail = ({ onGoBack }: InvoiceDetailProps) => {
   return (
     <Stack>
       <header>
         <Inline mode={MODE.Stacked}>
-          <Button onClick={() => navigate(-1)}>Back</Button>
+          <Button onClick={onGoBack}>Back</Button>
           <h1>Detail</h1>
         </Inline>
       </header>
@@ -19,3 +20,4 @@ const InvoiceDetail = () => {
 }
 
 export { InvoiceDetail }
+export type { InvoiceDetailProps }

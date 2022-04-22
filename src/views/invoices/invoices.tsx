@@ -1,6 +1,4 @@
 import React from 'react'
-import axios from 'axios'
-import type { CancelToken } from 'axios'
 import { useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 
 import { ErrorMessage } from '../../components/error-message'
@@ -11,99 +9,46 @@ import { Paginator } from '../../components/paginator'
 import { Spinner } from '../../components/spinner'
 import { Stack } from '../../components/stack'
 
+import {
+  CancelToken,
+  getCancelToken,
+  isCancelError,
+} from '../../libs/http-client'
+import { usePaginator } from '../../libs/paginator/use-paginator'
+
+import * as invoicesService from './invoices-service'
+import { InvoiceT } from './models'
+
 import './invoices.css'
 
-const formatResponseInterceptor = axios.interceptors.response.use(
-  (response) => {
-    const link = response.headers['link']
-
-    if (!link) return response
-
-    const paginationInfo = getPaginationInfo(response.headers['link'])
-
-    return {
-      ...response,
-      data: {
-        info: paginationInfo,
-        results: response.data,
-      },
-    }
-  },
-  (error) => Promise.reject(error)
-)
-
-interface InvoiceT {
-  id: string
-  amount: {
-    currency: string
-    value: number
-  }
-  date: string
-  recipient: string
-}
-
-interface InvoiceResponseT {
-  info: PaginationInfoT
-  results: Array<InvoiceT>
-}
-
-interface RelMap {
-  first: string
-  last: string
-  next?: string
-  previous?: string
-}
-
-interface PaginationInfoT {
-  totalPages: number
-}
-
-interface PaginatorT {
-  totalPages: number
-  currentPage: number
+interface InvoicesProps {
+  page: number
   pageSize: number
+  // method
+  onInvoiceClick(props: Pick<InvoiceT, 'id'>): void
+  onPageChange(props: Pick<InvoicesProps, 'page' | 'pageSize'>): void
 }
 
-function getPaginationInfo(link: string): PaginationInfoT {
-  const tuples = link.split(',').map((entry) => entry.split(';'))
-
-  const entries = tuples.reduce((acc, [url, rel]) => {
-    const position = rel.match(/(?<=rel=")(.*)(?=")/)
-
-    if (!position) return acc
-
-    return Object.assign(acc, { [position[0]]: url.trim().slice(1, -1) })
-  }, {}) as RelMap
-
-  const { last } = entries
-
-  const totalPages = new URL(last).searchParams.get('_page') || 1
-
-  return {
-    totalPages: +totalPages,
-  }
+type InvoiceViewModelT = Omit<InvoiceT, 'amount'> & {
+  amount: string
 }
 
-function Invoices() {
-  const [params] = useSearchParams()
-  const [paginator, setPaginator] = React.useState<PaginatorT>(() => {
-    const page = Number(params.get('page')) || 1
-    const pageSize = Number(params.get('pageSize')) || 10
+function useInvoices({
+  page,
+  pageSize,
+}: Pick<InvoicesProps, 'page' | 'pageSize'>) {
+  // Pagination
+  const {
+    paginator,
+    setPaginator,
+    handleNextPageClick,
+    handlePreviousPageClick,
+  } = usePaginator({ page, pageSize })
 
-    return {
-      currentPage: page,
-      next: null,
-      pageSize: pageSize,
-      previous: null,
-      totalPages: page,
-    }
-  })
-  const [invoices, setInvoices] = React.useState<InvoiceT[]>([])
+  // Data
+  const [invoices, setInvoices] = React.useState<InvoiceViewModelT[]>([])
   const [isLoading, setIsLoading] = React.useState(false)
   const [itFailed, setItFailed] = React.useState(false)
-
-  const { pathname } = useLocation()
-  const navigate = useNavigate()
 
   const getInvoices = React.useCallback(
     (
@@ -113,15 +58,25 @@ function Invoices() {
       setIsLoading(true)
 
       const params = { _page: page, _limit: pageSize }
-      const BASE_URL = 'http://localhost:3001/invoices'
 
-      axios.get<InvoiceResponseT>(BASE_URL, { ...config, params }).then(
+      invoicesService.getInvoices({ ...config, params }).then(
         (res) => {
           const { info, results } = res.data
 
           setIsLoading(false)
           setItFailed(false)
-          setInvoices(results)
+          setInvoices(
+            results.map((invoice) => {
+              return {
+                ...invoice,
+                amount: invoice.amount.value.toLocaleString('es-CL', {
+                  style: 'currency',
+                  currency: invoice.amount.currency,
+                }),
+                date: new Date(invoice.date).toLocaleString('es-CL'),
+              }
+            })
+          )
           setPaginator({
             currentPage: page,
             pageSize: pageSize,
@@ -129,7 +84,7 @@ function Invoices() {
           })
         },
         (e) => {
-          if (!axios.isCancel(e)) {
+          if (isCancelError(e)) {
             setIsLoading(false)
             setItFailed(true)
           }
@@ -139,35 +94,42 @@ function Invoices() {
     []
   )
 
-  const handleNextPageClick = React.useCallback(() => {
-    setPaginator((paginator) =>
-      paginator.totalPages && paginator.currentPage < paginator.totalPages
-        ? { ...paginator, currentPage: paginator.currentPage + 1 }
-        : paginator
-    )
-  }, [])
+  return {
+    invoices,
+    isLoading,
+    itFailed,
+    paginator,
+    // methods
+    handleNextPageClick,
+    handlePreviousPageClick,
+    getInvoices,
+  }
+}
 
-  const handlePreviousPageClick = React.useCallback(() => {
-    setPaginator((paginator) =>
-      paginator.currentPage > 1
-        ? { ...paginator, currentPage: paginator.currentPage - 1 }
-        : paginator
-    )
-  }, [])
-
-  const handleInvoiceClick = React.useCallback(
-    ({ id }: Pick<InvoiceT, 'id'>) => navigate(id),
-    [navigate]
-  )
+function Invoices({
+  page,
+  pageSize,
+  onInvoiceClick,
+  onPageChange,
+}: InvoicesProps) {
+  const {
+    invoices,
+    isLoading,
+    itFailed,
+    paginator,
+    // methods
+    handleNextPageClick,
+    handlePreviousPageClick,
+    getInvoices,
+  } = useInvoices({ page, pageSize })
 
   React.useEffect(() => {
-    const source = axios.CancelToken.source()
-    const params = new URLSearchParams({
-      page: `${paginator.currentPage}`,
-      pageSize: `${paginator.pageSize}`,
-    })
+    onPageChange({ page: paginator.currentPage, pageSize: paginator.pageSize })
+  }, [onPageChange, paginator.currentPage, paginator.pageSize])
 
-    navigate(pathname + '?' + params.toString())
+  React.useEffect(() => {
+    const source = getCancelToken()
+
     getInvoices(
       {
         page: paginator.currentPage,
@@ -177,7 +139,7 @@ function Invoices() {
     )
 
     return () => source.cancel()
-  }, [pathname, paginator.currentPage, paginator.pageSize, getInvoices])
+  }, [paginator.currentPage, paginator.pageSize, getInvoices])
 
   return (
     <main>
@@ -208,13 +170,10 @@ function Invoices() {
               <Invoice
                 key={invoice.id}
                 id={invoice.id}
-                amount={invoice.amount.value.toLocaleString('en-US', {
-                  style: 'currency',
-                  currency: invoice.amount.currency,
-                })}
-                date={new Date(invoice.date).toLocaleString()}
+                amount={invoice.amount}
+                date={invoice.date}
                 recipient={invoice.recipient}
-                onClick={handleInvoiceClick}
+                onClick={onInvoiceClick}
               />
             ))}
           </List>
@@ -257,10 +216,4 @@ function Invoice(props: InvoiceProps) {
 }
 
 export { Invoices }
-
-// ----- remove axios interceptor on hot module reloading -----
-if (import.meta.hot) {
-  import.meta.hot.dispose(() => {
-    axios.interceptors.response.eject(formatResponseInterceptor)
-  })
-}
+export type { InvoicesProps }
