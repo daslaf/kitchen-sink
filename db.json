@@ -1,0 +1,1354 @@
+{
+  "invoices": [
+    {
+      "id": "6ea0e4ee-6afc-4f64-9c29-0f29031e6249",
+      "amount": {
+        "currency": "CLP",
+        "value": 15990
+      },
+      "date": "2022-04-10T19:21:54Z",
+      "recipient": "Skivee"
+    },
+    {
+      "id": "c94f519f-a408-46ce-99e5-f89f88ab7253",
+      "amount": {
+        "currency": "CLP",
+        "value": 23858
+      },
+      "date": "2022-04-02T09:32:20Z",
+      "recipient": "Fanoodle"
+    },
+    {
+      "id": "8c1d3b75-801d-47f2-be4c-ad3684ddde45",
+      "amount": {
+        "currency": "CLP",
+        "value": 87881
+      },
+      "date": "2022-04-18T11:05:24Z",
+      "recipient": "Zooxo"
+    },
+    {
+      "id": "8f5d3830-c21a-4fb3-89ad-26acec7a0b3f",
+      "amount": {
+        "currency": "CLP",
+        "value": 44673
+      },
+      "date": "2022-03-19T06:55:04Z",
+      "recipient": "Npath"
+    },
+    {
+      "id": "ecc9a3c3-48a6-4b56-b821-88f2558231f2",
+      "amount": {
+        "currency": "CLP",
+        "value": 37346
+      },
+      "date": "2022-03-24T05:29:36Z",
+      "recipient": "Eazzy"
+    },
+    {
+      "id": "a519e8dd-547c-4449-9353-0bb810a7d2d2",
+      "amount": {
+        "currency": "CLP",
+        "value": 12445
+      },
+      "date": "2022-04-10T03:08:38Z",
+      "recipient": "Mybuzz"
+    },
+    {
+      "id": "0b2c6a1b-d110-4971-82d5-a37cef3f17ab",
+      "amount": {
+        "currency": "CLP",
+        "value": 13713
+      },
+      "date": "2022-04-15T12:34:20Z",
+      "recipient": "Zoomzone"
+    },
+    {
+      "id": "5971813b-3171-4e7e-bcf6-d133d1c373ee",
+      "amount": {
+        "currency": "CLP",
+        "value": 42003
+      },
+      "date": "2022-03-19T02:10:52Z",
+      "recipient": "Mydeo"
+    },
+    {
+      "id": "599fd44b-098e-4382-80b4-3ae20d25078f",
+      "amount": {
+        "currency": "CLP",
+        "value": 78664
+      },
+      "date": "2022-04-09T00:23:22Z",
+      "recipient": "Skidoo"
+    },
+    {
+      "id": "9d65e447-d66e-48f4-b63e-39cb7eb379c1",
+      "amount": {
+        "currency": "CLP",
+        "value": 51404
+      },
+      "date": "2022-04-04T15:23:45Z",
+      "recipient": "JumpXS"
+    },
+    {
+      "id": "72cfe6cc-e9a6-4e19-9016-c3d8dbab26c9",
+      "amount": {
+        "currency": "CLP",
+        "value": 26792
+      },
+      "date": "2022-03-23T00:47:40Z",
+      "recipient": "Skinix"
+    },
+    {
+      "id": "057da64f-112f-4123-b456-43ff7b601bbf",
+      "amount": {
+        "currency": "CLP",
+        "value": 75524
+      },
+      "date": "2022-03-22T19:57:25Z",
+      "recipient": "Gigabox"
+    },
+    {
+      "id": "c3f333b3-a44a-4f6e-955f-ffa8ebcc4e16",
+      "amount": {
+        "currency": "CLP",
+        "value": 44794
+      },
+      "date": "2022-04-12T10:18:38Z",
+      "recipient": "Mydeo"
+    },
+    {
+      "id": "f08a6dc0-979f-4190-aa94-94fdb09492a7",
+      "amount": {
+        "currency": "CLP",
+        "value": 65114
+      },
+      "date": "2022-03-29T14:25:39Z",
+      "recipient": "Blognation"
+    },
+    {
+      "id": "247518c5-d3cd-485a-8da4-2546f32b7f55",
+      "amount": {
+        "currency": "CLP",
+        "value": 22254
+      },
+      "date": "2022-04-11T09:54:34Z",
+      "recipient": "Blognation"
+    },
+    {
+      "id": "e7876ce1-3224-4c64-84c8-9c928856c2ac",
+      "amount": {
+        "currency": "CLP",
+        "value": 27676
+      },
+      "date": "2022-03-28T11:37:09Z",
+      "recipient": "Riffpedia"
+    },
+    {
+      "id": "116ca1ab-5715-46e2-9dfb-8b87e68398e7",
+      "amount": {
+        "currency": "CLP",
+        "value": 42875
+      },
+      "date": "2022-04-11T03:15:20Z",
+      "recipient": "Wordware"
+    },
+    {
+      "id": "c8997873-5d1d-4874-9a39-3ea4a2edaced",
+      "amount": {
+        "currency": "CLP",
+        "value": 74049
+      },
+      "date": "2022-04-07T16:51:13Z",
+      "recipient": "Vipe"
+    },
+    {
+      "id": "cd833d1f-6de0-45e7-94e5-392a8dbfbeea",
+      "amount": {
+        "currency": "CLP",
+        "value": 96635
+      },
+      "date": "2022-04-05T04:23:41Z",
+      "recipient": "Skimia"
+    },
+    {
+      "id": "aeeb9400-aec9-42d9-879d-b7201e841c73",
+      "amount": {
+        "currency": "CLP",
+        "value": 26765
+      },
+      "date": "2022-04-06T10:56:35Z",
+      "recipient": "Bubblebox"
+    },
+    {
+      "id": "ddcf630f-554f-410d-a45a-4f1993f9adae",
+      "amount": {
+        "currency": "CLP",
+        "value": 11216
+      },
+      "date": "2022-04-01T12:37:00Z",
+      "recipient": "Nlounge"
+    },
+    {
+      "id": "93d14d1c-5fa2-4fac-b7d1-99627777f2d0",
+      "amount": {
+        "currency": "CLP",
+        "value": 15613
+      },
+      "date": "2022-04-07T00:45:20Z",
+      "recipient": "Camido"
+    },
+    {
+      "id": "5fe85413-3615-4123-8c7b-bb3f402a75e1",
+      "amount": {
+        "currency": "CLP",
+        "value": 83591
+      },
+      "date": "2022-04-12T09:50:07Z",
+      "recipient": "Wordtune"
+    },
+    {
+      "id": "a6f58fac-d257-4a5a-8d30-dc0caae94200",
+      "amount": {
+        "currency": "CLP",
+        "value": 47223
+      },
+      "date": "2022-03-29T02:27:11Z",
+      "recipient": "Fatz"
+    },
+    {
+      "id": "9d67ca58-1fb5-4322-85a0-2a0dc29d1537",
+      "amount": {
+        "currency": "CLP",
+        "value": 45824
+      },
+      "date": "2022-04-14T02:55:31Z",
+      "recipient": "Riffpedia"
+    },
+    {
+      "id": "bd89cb01-06b8-4088-9813-4e5cbff98b05",
+      "amount": {
+        "currency": "CLP",
+        "value": 46111
+      },
+      "date": "2022-03-20T17:12:43Z",
+      "recipient": "Zoozzy"
+    },
+    {
+      "id": "fdb76afa-5aa5-42e5-96a0-66bda319f83f",
+      "amount": {
+        "currency": "CLP",
+        "value": 34564
+      },
+      "date": "2022-03-31T06:34:51Z",
+      "recipient": "Ntag"
+    },
+    {
+      "id": "5e0672f6-732d-4c2c-89d8-877b9e6972da",
+      "amount": {
+        "currency": "CLP",
+        "value": 82697
+      },
+      "date": "2022-04-09T17:28:23Z",
+      "recipient": "LiveZ"
+    },
+    {
+      "id": "81bd6c51-6f1c-477b-9db0-179db21c469d",
+      "amount": {
+        "currency": "CLP",
+        "value": 52967
+      },
+      "date": "2022-03-28T19:14:15Z",
+      "recipient": "Jetpulse"
+    },
+    {
+      "id": "18c88f3f-65fe-4004-8f13-e4f4a99dbad1",
+      "amount": {
+        "currency": "CLP",
+        "value": 76653
+      },
+      "date": "2022-03-30T13:53:34Z",
+      "recipient": "Skimia"
+    },
+    {
+      "id": "74431986-b9e8-4345-b0f3-3981187faa80",
+      "amount": {
+        "currency": "CLP",
+        "value": 32591
+      },
+      "date": "2022-03-26T14:44:27Z",
+      "recipient": "Gabvine"
+    },
+    {
+      "id": "ec7bf7e7-d86c-4781-91f3-883fc49e393c",
+      "amount": {
+        "currency": "CLP",
+        "value": 13155
+      },
+      "date": "2022-04-06T08:56:10Z",
+      "recipient": "Yotz"
+    },
+    {
+      "id": "b787ec85-ef36-46e2-97c7-3957f73538df",
+      "amount": {
+        "currency": "CLP",
+        "value": 38089
+      },
+      "date": "2022-04-07T19:40:32Z",
+      "recipient": "Leenti"
+    },
+    {
+      "id": "dc827e5a-8345-4363-bf91-b6a43edd46b6",
+      "amount": {
+        "currency": "CLP",
+        "value": 31819
+      },
+      "date": "2022-04-04T15:54:25Z",
+      "recipient": "Realbuzz"
+    },
+    {
+      "id": "d643f75c-6eb5-4e18-a73b-a6d46b4654b7",
+      "amount": {
+        "currency": "CLP",
+        "value": 31837
+      },
+      "date": "2022-03-31T12:02:28Z",
+      "recipient": "Livetube"
+    },
+    {
+      "id": "3797c3d1-54e2-4414-94dd-722c3a60cf96",
+      "amount": {
+        "currency": "CLP",
+        "value": 37236
+      },
+      "date": "2022-04-13T05:19:44Z",
+      "recipient": "Youfeed"
+    },
+    {
+      "id": "a212d3cd-37b2-4c32-814e-220d65e8b171",
+      "amount": {
+        "currency": "CLP",
+        "value": 78741
+      },
+      "date": "2022-03-21T19:10:12Z",
+      "recipient": "Vimbo"
+    },
+    {
+      "id": "25d96a3e-dbfe-475b-836e-a428d67006e6",
+      "amount": {
+        "currency": "CLP",
+        "value": 30828
+      },
+      "date": "2022-04-13T07:35:53Z",
+      "recipient": "Trudeo"
+    },
+    {
+      "id": "c1fe92f6-a600-4c38-a952-cb16e63eb0dd",
+      "amount": {
+        "currency": "CLP",
+        "value": 38332
+      },
+      "date": "2022-04-17T02:51:53Z",
+      "recipient": "Eadel"
+    },
+    {
+      "id": "b0fc4283-6282-49fe-a10a-d5c794c377d6",
+      "amount": {
+        "currency": "CLP",
+        "value": 99427
+      },
+      "date": "2022-04-15T17:17:57Z",
+      "recipient": "Oyoba"
+    },
+    {
+      "id": "defdf75e-b3d2-4923-a833-10c7f3bfcfee",
+      "amount": {
+        "currency": "CLP",
+        "value": 45139
+      },
+      "date": "2022-03-29T18:32:12Z",
+      "recipient": "Thoughtmix"
+    },
+    {
+      "id": "9175d5d2-38c0-4768-9b02-c18fffc751c7",
+      "amount": {
+        "currency": "CLP",
+        "value": 45212
+      },
+      "date": "2022-03-27T13:27:11Z",
+      "recipient": "Thoughtbridge"
+    },
+    {
+      "id": "7916c043-4e3f-48f9-a148-aa37789da3cc",
+      "amount": {
+        "currency": "CLP",
+        "value": 64406
+      },
+      "date": "2022-04-07T07:24:54Z",
+      "recipient": "Cogilith"
+    },
+    {
+      "id": "9eb76287-22fe-41bf-a14b-c34d32f9c02f",
+      "amount": {
+        "currency": "CLP",
+        "value": 24974
+      },
+      "date": "2022-04-03T10:20:57Z",
+      "recipient": "Feednation"
+    },
+    {
+      "id": "8b4168ef-8b53-4799-b3f3-2461365bb0d7",
+      "amount": {
+        "currency": "CLP",
+        "value": 86555
+      },
+      "date": "2022-04-17T14:05:14Z",
+      "recipient": "Dynabox"
+    },
+    {
+      "id": "28a6e992-b7f4-4f80-bbf2-c55ce53b8e5d",
+      "amount": {
+        "currency": "CLP",
+        "value": 57270
+      },
+      "date": "2022-03-29T10:21:12Z",
+      "recipient": "Quimm"
+    },
+    {
+      "id": "6e15f417-0c37-4a63-be10-f7b251958c4d",
+      "amount": {
+        "currency": "CLP",
+        "value": 61668
+      },
+      "date": "2022-03-24T06:48:29Z",
+      "recipient": "Skyble"
+    },
+    {
+      "id": "16d63953-4548-413d-aec5-4e0a36346e16",
+      "amount": {
+        "currency": "CLP",
+        "value": 96420
+      },
+      "date": "2022-04-17T13:43:40Z",
+      "recipient": "LiveZ"
+    },
+    {
+      "id": "4307505c-3132-448d-9b03-e438a3b80e77",
+      "amount": {
+        "currency": "CLP",
+        "value": 66036
+      },
+      "date": "2022-03-19T21:42:44Z",
+      "recipient": "Photobean"
+    },
+    {
+      "id": "60fb9725-4654-426b-b89d-235386b93bc0",
+      "amount": {
+        "currency": "CLP",
+        "value": 65782
+      },
+      "date": "2022-04-16T08:23:27Z",
+      "recipient": "Oyonder"
+    },
+    {
+      "id": "d3ce30a9-a7be-45f3-8bb0-4c424eb7bb38",
+      "amount": {
+        "currency": "CLP",
+        "value": 11992
+      },
+      "date": "2022-03-31T04:37:54Z",
+      "recipient": "Wikizz"
+    },
+    {
+      "id": "bb041a03-33d1-46af-bf43-420ef015182a",
+      "amount": {
+        "currency": "CLP",
+        "value": 82578
+      },
+      "date": "2022-04-15T23:47:44Z",
+      "recipient": "Chatterbridge"
+    },
+    {
+      "id": "7d603117-fc25-4571-a631-dfd90bd8828c",
+      "amount": {
+        "currency": "CLP",
+        "value": 47234
+      },
+      "date": "2022-04-13T11:15:19Z",
+      "recipient": "Gigabox"
+    },
+    {
+      "id": "3478c258-6ae8-47fc-99de-2b231237ac29",
+      "amount": {
+        "currency": "CLP",
+        "value": 47921
+      },
+      "date": "2022-04-02T06:07:34Z",
+      "recipient": "Meetz"
+    },
+    {
+      "id": "e21b00b3-32d0-4c3f-a101-f765406059af",
+      "amount": {
+        "currency": "CLP",
+        "value": 69076
+      },
+      "date": "2022-03-22T17:05:08Z",
+      "recipient": "Skajo"
+    },
+    {
+      "id": "3727d02f-b4ea-4478-8734-e6aa536e1c5c",
+      "amount": {
+        "currency": "CLP",
+        "value": 74460
+      },
+      "date": "2022-04-03T03:05:38Z",
+      "recipient": "Thoughtstorm"
+    },
+    {
+      "id": "baa18579-cef6-4170-a991-78800d7330db",
+      "amount": {
+        "currency": "CLP",
+        "value": 81071
+      },
+      "date": "2022-03-24T08:14:47Z",
+      "recipient": "Vidoo"
+    },
+    {
+      "id": "1496adac-ec27-4ddc-82ce-7fdb5dfc2065",
+      "amount": {
+        "currency": "CLP",
+        "value": 98025
+      },
+      "date": "2022-04-17T07:28:47Z",
+      "recipient": "Latz"
+    },
+    {
+      "id": "6a046f04-3403-4395-ab98-5c1d82619dcf",
+      "amount": {
+        "currency": "CLP",
+        "value": 77137
+      },
+      "date": "2022-03-30T21:36:36Z",
+      "recipient": "BlogXS"
+    },
+    {
+      "id": "79cee054-debf-49e7-927c-d478162ee869",
+      "amount": {
+        "currency": "CLP",
+        "value": 65647
+      },
+      "date": "2022-03-27T20:56:48Z",
+      "recipient": "BlogXS"
+    },
+    {
+      "id": "de0a1965-3766-49cf-a79e-477d647cb2a4",
+      "amount": {
+        "currency": "CLP",
+        "value": 70803
+      },
+      "date": "2022-03-20T06:17:05Z",
+      "recipient": "Aimbu"
+    },
+    {
+      "id": "5d57524c-b264-4537-b227-bbed7a852e60",
+      "amount": {
+        "currency": "CLP",
+        "value": 59504
+      },
+      "date": "2022-04-02T09:28:48Z",
+      "recipient": "Izio"
+    },
+    {
+      "id": "a9eac460-c284-445e-8c70-e501cdd974b3",
+      "amount": {
+        "currency": "CLP",
+        "value": 26647
+      },
+      "date": "2022-03-27T06:18:32Z",
+      "recipient": "Kaymbo"
+    },
+    {
+      "id": "e0b39835-d0a7-4537-8ad1-4f1197013323",
+      "amount": {
+        "currency": "CLP",
+        "value": 97450
+      },
+      "date": "2022-03-31T06:07:34Z",
+      "recipient": "Realpoint"
+    },
+    {
+      "id": "43d5c2fa-4beb-4d53-a689-fb1d80089ba9",
+      "amount": {
+        "currency": "CLP",
+        "value": 49236
+      },
+      "date": "2022-03-23T18:55:42Z",
+      "recipient": "Twitterworks"
+    },
+    {
+      "id": "1b5cffb7-96fd-49c5-a97a-b42c59602188",
+      "amount": {
+        "currency": "CLP",
+        "value": 71779
+      },
+      "date": "2022-03-19T11:00:17Z",
+      "recipient": "Janyx"
+    },
+    {
+      "id": "6e414282-9f33-45b0-a478-c21f4da585f9",
+      "amount": {
+        "currency": "CLP",
+        "value": 14031
+      },
+      "date": "2022-03-19T14:16:05Z",
+      "recipient": "Dynava"
+    },
+    {
+      "id": "66380886-7816-4400-9659-d454eb0e2fd2",
+      "amount": {
+        "currency": "CLP",
+        "value": 70875
+      },
+      "date": "2022-03-31T07:25:31Z",
+      "recipient": "Voomm"
+    },
+    {
+      "id": "0db4fb2a-963a-4292-ac0f-5292ba2effe6",
+      "amount": {
+        "currency": "CLP",
+        "value": 46053
+      },
+      "date": "2022-03-26T22:52:33Z",
+      "recipient": "Kare"
+    },
+    {
+      "id": "4adb5267-8fc3-427b-846d-08b84774188d",
+      "amount": {
+        "currency": "CLP",
+        "value": 48657
+      },
+      "date": "2022-04-02T04:57:45Z",
+      "recipient": "Oyoloo"
+    },
+    {
+      "id": "85f8cb01-5177-4220-99f0-cfd5429344b7",
+      "amount": {
+        "currency": "CLP",
+        "value": 81682
+      },
+      "date": "2022-03-20T06:53:09Z",
+      "recipient": "Rooxo"
+    },
+    {
+      "id": "90d87d74-3a3b-43df-a0c8-89809fe1a105",
+      "amount": {
+        "currency": "CLP",
+        "value": 26825
+      },
+      "date": "2022-03-30T09:59:40Z",
+      "recipient": "Jabberstorm"
+    },
+    {
+      "id": "c0aa9233-534e-494d-830e-a508fa987b3c",
+      "amount": {
+        "currency": "CLP",
+        "value": 53512
+      },
+      "date": "2022-04-02T14:08:36Z",
+      "recipient": "Zooxo"
+    },
+    {
+      "id": "6ba0cc08-9c36-464d-95e6-12b642463e08",
+      "amount": {
+        "currency": "CLP",
+        "value": 94270
+      },
+      "date": "2022-03-20T11:50:27Z",
+      "recipient": "Snaptags"
+    },
+    {
+      "id": "d67691a8-3033-4474-9d25-81c35102c5be",
+      "amount": {
+        "currency": "CLP",
+        "value": 53704
+      },
+      "date": "2022-03-25T08:18:14Z",
+      "recipient": "Quamba"
+    },
+    {
+      "id": "e22c332f-82d0-4dae-a819-c052696d6ced",
+      "amount": {
+        "currency": "CLP",
+        "value": 45154
+      },
+      "date": "2022-04-06T06:39:27Z",
+      "recipient": "Flashset"
+    },
+    {
+      "id": "c52a3966-7e38-45cf-abcb-10bc45dd5593",
+      "amount": {
+        "currency": "CLP",
+        "value": 25392
+      },
+      "date": "2022-04-08T00:41:29Z",
+      "recipient": "Talane"
+    },
+    {
+      "id": "08856a4b-ebc2-4fcb-966c-c3754ddc073e",
+      "amount": {
+        "currency": "CLP",
+        "value": 46363
+      },
+      "date": "2022-03-21T13:00:53Z",
+      "recipient": "Janyx"
+    },
+    {
+      "id": "f37dbab6-5fdf-4155-9c1c-b36bb23a29e4",
+      "amount": {
+        "currency": "CLP",
+        "value": 39214
+      },
+      "date": "2022-04-03T16:04:36Z",
+      "recipient": "Katz"
+    },
+    {
+      "id": "e6c8dc67-67d0-4517-abf2-3e40557eb98c",
+      "amount": {
+        "currency": "CLP",
+        "value": 26174
+      },
+      "date": "2022-03-22T04:16:12Z",
+      "recipient": "Zoovu"
+    },
+    {
+      "id": "c6e1bac1-c2e2-482e-9947-817e62bf575e",
+      "amount": {
+        "currency": "CLP",
+        "value": 46764
+      },
+      "date": "2022-03-30T14:21:37Z",
+      "recipient": "Kayveo"
+    },
+    {
+      "id": "23bcdd56-5e3c-496e-8d33-86a66558ee76",
+      "amount": {
+        "currency": "CLP",
+        "value": 61103
+      },
+      "date": "2022-04-11T20:25:29Z",
+      "recipient": "Shuffledrive"
+    },
+    {
+      "id": "7c252068-74cc-4515-bea6-6431bdd877f3",
+      "amount": {
+        "currency": "CLP",
+        "value": 27951
+      },
+      "date": "2022-04-06T07:36:29Z",
+      "recipient": "Gigazoom"
+    },
+    {
+      "id": "f95480f9-a563-492a-b651-69928a53756d",
+      "amount": {
+        "currency": "CLP",
+        "value": 41118
+      },
+      "date": "2022-04-10T16:48:13Z",
+      "recipient": "Eayo"
+    },
+    {
+      "id": "c0870305-2bae-4127-93c5-5e6ac2ee00a7",
+      "amount": {
+        "currency": "CLP",
+        "value": 63590
+      },
+      "date": "2022-04-10T15:20:43Z",
+      "recipient": "Skibox"
+    },
+    {
+      "id": "5d13dc22-ba24-4fbe-895e-53a7effc35a1",
+      "amount": {
+        "currency": "CLP",
+        "value": 45000
+      },
+      "date": "2022-04-17T01:30:45Z",
+      "recipient": "Dablist"
+    },
+    {
+      "id": "86625755-b20b-448c-8767-b2fb4b747e8f",
+      "amount": {
+        "currency": "CLP",
+        "value": 95215
+      },
+      "date": "2022-04-02T23:22:05Z",
+      "recipient": "Eimbee"
+    },
+    {
+      "id": "a4c884be-b5b0-46c3-8ed3-f76b929059fb",
+      "amount": {
+        "currency": "CLP",
+        "value": 86065
+      },
+      "date": "2022-03-22T18:27:01Z",
+      "recipient": "Tazzy"
+    },
+    {
+      "id": "4cd1b900-11fa-49c7-8193-cad71493ee50",
+      "amount": {
+        "currency": "CLP",
+        "value": 50498
+      },
+      "date": "2022-04-04T02:09:25Z",
+      "recipient": "Eabox"
+    },
+    {
+      "id": "320dd186-c3a0-43d5-8245-91c8f3953829",
+      "amount": {
+        "currency": "CLP",
+        "value": 12161
+      },
+      "date": "2022-04-16T19:26:12Z",
+      "recipient": "Viva"
+    },
+    {
+      "id": "c548805f-e667-43e8-886c-6b89058f3e8b",
+      "amount": {
+        "currency": "CLP",
+        "value": 14108
+      },
+      "date": "2022-03-29T05:41:01Z",
+      "recipient": "Zoozzy"
+    },
+    {
+      "id": "0d4ec2e1-8591-4ba6-8cef-33993320511c",
+      "amount": {
+        "currency": "CLP",
+        "value": 67809
+      },
+      "date": "2022-03-28T13:16:51Z",
+      "recipient": "Trupe"
+    },
+    {
+      "id": "03b5dd5a-9a56-45f7-86f6-ebe5b38fec18",
+      "amount": {
+        "currency": "CLP",
+        "value": 43765
+      },
+      "date": "2022-03-23T19:02:16Z",
+      "recipient": "Skipstorm"
+    },
+    {
+      "id": "be89e866-324b-4847-98bd-ce3bd85dfc5c",
+      "amount": {
+        "currency": "CLP",
+        "value": 55559
+      },
+      "date": "2022-04-16T20:05:28Z",
+      "recipient": "Zooxo"
+    },
+    {
+      "id": "c20d8f32-5a1b-4a39-971e-592bb9984fd2",
+      "amount": {
+        "currency": "CLP",
+        "value": 31913
+      },
+      "date": "2022-03-30T15:00:44Z",
+      "recipient": "Jaxnation"
+    },
+    {
+      "id": "6fbd6173-209f-4a57-9319-4b632adb5cff",
+      "amount": {
+        "currency": "CLP",
+        "value": 40693
+      },
+      "date": "2022-04-08T20:55:24Z",
+      "recipient": "BlogXS"
+    },
+    {
+      "id": "8a5555be-4bb4-4ace-b3cd-40a84f75cbc3",
+      "amount": {
+        "currency": "CLP",
+        "value": 65766
+      },
+      "date": "2022-03-28T11:23:02Z",
+      "recipient": "Eare"
+    },
+    {
+      "id": "27f6f5b2-aad7-4fd3-99ff-3b57c0f89285",
+      "amount": {
+        "currency": "CLP",
+        "value": 27710
+      },
+      "date": "2022-04-11T11:10:05Z",
+      "recipient": "Mynte"
+    },
+    {
+      "id": "8a0b31ca-c04b-419d-a6c3-086d39a8214e",
+      "amount": {
+        "currency": "CLP",
+        "value": 74884
+      },
+      "date": "2022-03-25T03:45:18Z",
+      "recipient": "Tagcat"
+    },
+    {
+      "id": "c29af661-292b-4c30-b267-72c4347bfa3b",
+      "amount": {
+        "currency": "CLP",
+        "value": 13298
+      },
+      "date": "2022-04-05T14:54:29Z",
+      "recipient": "Realpoint"
+    },
+    {
+      "id": "8ec248b0-2dda-4964-bfaa-216a6fdbc247",
+      "amount": {
+        "currency": "CLP",
+        "value": 58371
+      },
+      "date": "2022-04-17T13:04:14Z",
+      "recipient": "Nlounge"
+    },
+    {
+      "id": "dbc403ce-6c51-41ea-90a9-7df510207c62",
+      "amount": {
+        "currency": "CLP",
+        "value": 51407
+      },
+      "date": "2022-03-27T06:38:58Z",
+      "recipient": "Aimbu"
+    },
+    {
+      "id": "2612fb39-5d9d-4230-af6d-89f5e154fd3f",
+      "amount": {
+        "currency": "CLP",
+        "value": 24319
+      },
+      "date": "2022-03-22T10:01:18Z",
+      "recipient": "Voolith"
+    },
+    {
+      "id": "839b3f73-7f43-4bd4-9a33-785f56902417",
+      "amount": {
+        "currency": "CLP",
+        "value": 94129
+      },
+      "date": "2022-03-24T22:22:35Z",
+      "recipient": "Eare"
+    },
+    {
+      "id": "ac3759ed-2834-4ca4-b6a5-bb6f095c0b60",
+      "amount": {
+        "currency": "CLP",
+        "value": 98414
+      },
+      "date": "2022-04-01T15:58:23Z",
+      "recipient": "Avamba"
+    },
+    {
+      "id": "cf157f56-a0d5-450b-8799-038c77d68eaa",
+      "amount": {
+        "currency": "CLP",
+        "value": 86684
+      },
+      "date": "2022-03-25T10:08:12Z",
+      "recipient": "Katz"
+    },
+    {
+      "id": "6aff4eff-a110-4af8-a89b-da61a863c25f",
+      "amount": {
+        "currency": "CLP",
+        "value": 52839
+      },
+      "date": "2022-04-12T09:30:20Z",
+      "recipient": "Wikizz"
+    },
+    {
+      "id": "07abf783-dbbf-49c9-a78f-3fbd8f83ae2d",
+      "amount": {
+        "currency": "CLP",
+        "value": 23047
+      },
+      "date": "2022-04-14T11:25:23Z",
+      "recipient": "Skilith"
+    },
+    {
+      "id": "b6e315f0-9b0a-4a87-a8b7-e8e51aae836e",
+      "amount": {
+        "currency": "CLP",
+        "value": 22999
+      },
+      "date": "2022-04-09T11:34:17Z",
+      "recipient": "Edgewire"
+    },
+    {
+      "id": "0957dc01-1f3a-4ee1-a41b-ed5ef0ca5a94",
+      "amount": {
+        "currency": "CLP",
+        "value": 91579
+      },
+      "date": "2022-04-15T14:20:37Z",
+      "recipient": "Plambee"
+    },
+    {
+      "id": "69431e39-e3e4-48c3-ba73-2d6177e3024c",
+      "amount": {
+        "currency": "CLP",
+        "value": 34155
+      },
+      "date": "2022-03-23T12:48:24Z",
+      "recipient": "Demizz"
+    },
+    {
+      "id": "da9abc75-72d6-47f7-9144-51b9a6ad57d2",
+      "amount": {
+        "currency": "CLP",
+        "value": 26650
+      },
+      "date": "2022-03-28T21:28:27Z",
+      "recipient": "Quinu"
+    },
+    {
+      "id": "c3352513-38c2-45c4-b80b-185d69d135e0",
+      "amount": {
+        "currency": "CLP",
+        "value": 68006
+      },
+      "date": "2022-03-25T09:50:12Z",
+      "recipient": "Nlounge"
+    },
+    {
+      "id": "ba5ef8a7-bdb0-4558-b370-467300401f77",
+      "amount": {
+        "currency": "CLP",
+        "value": 93839
+      },
+      "date": "2022-04-13T20:39:54Z",
+      "recipient": "Jaxbean"
+    },
+    {
+      "id": "de67ba7c-d441-44be-a4fb-a82db3bae0f7",
+      "amount": {
+        "currency": "CLP",
+        "value": 16612
+      },
+      "date": "2022-04-03T05:59:54Z",
+      "recipient": "Meedoo"
+    },
+    {
+      "id": "819532d1-8565-4def-b6ec-34675e7f9442",
+      "amount": {
+        "currency": "CLP",
+        "value": 43497
+      },
+      "date": "2022-03-31T02:14:05Z",
+      "recipient": "Jaxbean"
+    },
+    {
+      "id": "0abf3eeb-c40c-48c2-a02e-ee6e6b7d75c0",
+      "amount": {
+        "currency": "CLP",
+        "value": 41522
+      },
+      "date": "2022-04-06T20:55:16Z",
+      "recipient": "Quimba"
+    },
+    {
+      "id": "94b0648b-9190-460f-b1bb-83f06a06b627",
+      "amount": {
+        "currency": "CLP",
+        "value": 79502
+      },
+      "date": "2022-04-08T00:52:24Z",
+      "recipient": "Yadel"
+    },
+    {
+      "id": "b4682ffb-05f9-44ca-823c-b23f712f88c0",
+      "amount": {
+        "currency": "CLP",
+        "value": 70968
+      },
+      "date": "2022-04-14T02:55:20Z",
+      "recipient": "Wordify"
+    },
+    {
+      "id": "6ee9cec3-5d9d-4291-85bc-bcf5802c0716",
+      "amount": {
+        "currency": "CLP",
+        "value": 99205
+      },
+      "date": "2022-04-15T02:59:52Z",
+      "recipient": "Jaxworks"
+    },
+    {
+      "id": "fa38b106-3e91-4ca9-bf45-fc30f1263412",
+      "amount": {
+        "currency": "CLP",
+        "value": 54062
+      },
+      "date": "2022-04-11T03:10:56Z",
+      "recipient": "Izio"
+    },
+    {
+      "id": "a3e23c4e-9ee3-42b7-bada-a8de367ec13d",
+      "amount": {
+        "currency": "CLP",
+        "value": 93327
+      },
+      "date": "2022-03-30T04:56:37Z",
+      "recipient": "Oyope"
+    },
+    {
+      "id": "14357f85-d1ca-4396-b53a-95ea42425db2",
+      "amount": {
+        "currency": "CLP",
+        "value": 53345
+      },
+      "date": "2022-03-31T05:12:50Z",
+      "recipient": "Browsebug"
+    },
+    {
+      "id": "872831de-3588-47c2-afd2-357a67c59f8f",
+      "amount": {
+        "currency": "CLP",
+        "value": 48870
+      },
+      "date": "2022-04-12T03:51:58Z",
+      "recipient": "Topicware"
+    },
+    {
+      "id": "0db758c3-11a1-45e1-a1f9-72899f1cbe9d",
+      "amount": {
+        "currency": "CLP",
+        "value": 60079
+      },
+      "date": "2022-04-01T02:52:23Z",
+      "recipient": "Gabvine"
+    },
+    {
+      "id": "dd0768ca-62be-49b1-b9bf-4f3a502acc89",
+      "amount": {
+        "currency": "CLP",
+        "value": 20384
+      },
+      "date": "2022-04-01T17:09:29Z",
+      "recipient": "Reallinks"
+    },
+    {
+      "id": "b76fe10a-82b3-4b5b-8d7a-c349a295f7bd",
+      "amount": {
+        "currency": "CLP",
+        "value": 43086
+      },
+      "date": "2022-04-17T02:15:05Z",
+      "recipient": "Skimia"
+    },
+    {
+      "id": "01bb83aa-36aa-4737-b416-654972ef43d7",
+      "amount": {
+        "currency": "CLP",
+        "value": 63899
+      },
+      "date": "2022-04-10T13:10:50Z",
+      "recipient": "Dazzlesphere"
+    },
+    {
+      "id": "6de2cae8-8d03-4cb5-870c-cc4087859e81",
+      "amount": {
+        "currency": "CLP",
+        "value": 17724
+      },
+      "date": "2022-04-04T13:08:32Z",
+      "recipient": "Feedmix"
+    },
+    {
+      "id": "045f965c-e2a7-4a2a-bc02-e7f8bcd38c0d",
+      "amount": {
+        "currency": "CLP",
+        "value": 96383
+      },
+      "date": "2022-04-13T16:23:06Z",
+      "recipient": "Meejo"
+    },
+    {
+      "id": "ae4d73e3-13fa-4b27-8965-2f487abb1500",
+      "amount": {
+        "currency": "CLP",
+        "value": 77505
+      },
+      "date": "2022-03-30T01:08:12Z",
+      "recipient": "Lajo"
+    },
+    {
+      "id": "28e957fc-a93c-4620-9434-0f240ae9637e",
+      "amount": {
+        "currency": "CLP",
+        "value": 60951
+      },
+      "date": "2022-04-09T18:27:45Z",
+      "recipient": "Yata"
+    },
+    {
+      "id": "837dcad2-6deb-4bc9-93e8-8ab7acd20d88",
+      "amount": {
+        "currency": "CLP",
+        "value": 33813
+      },
+      "date": "2022-04-17T16:13:50Z",
+      "recipient": "Youspan"
+    },
+    {
+      "id": "d0fdf055-f073-4d24-9cdf-1075c97d2ffe",
+      "amount": {
+        "currency": "CLP",
+        "value": 97189
+      },
+      "date": "2022-03-30T03:18:23Z",
+      "recipient": "Edgeify"
+    },
+    {
+      "id": "1d04ba02-ab3e-412e-b1c3-fea6d4fadb50",
+      "amount": {
+        "currency": "CLP",
+        "value": 60763
+      },
+      "date": "2022-03-28T10:32:28Z",
+      "recipient": "Youspan"
+    },
+    {
+      "id": "af2eb27c-2833-468a-844d-0933560a2195",
+      "amount": {
+        "currency": "CLP",
+        "value": 53638
+      },
+      "date": "2022-03-29T07:52:22Z",
+      "recipient": "Bubblebox"
+    },
+    {
+      "id": "0a08c320-040d-4da9-92a5-461dc43566a7",
+      "amount": {
+        "currency": "CLP",
+        "value": 53508
+      },
+      "date": "2022-03-30T10:58:11Z",
+      "recipient": "Oozz"
+    },
+    {
+      "id": "320512a8-031d-4286-9cd4-14a2e53a8889",
+      "amount": {
+        "currency": "CLP",
+        "value": 88710
+      },
+      "date": "2022-04-03T20:08:53Z",
+      "recipient": "Jabbertype"
+    },
+    {
+      "id": "a746a992-9bf0-4254-9a3a-7796c5476e83",
+      "amount": {
+        "currency": "CLP",
+        "value": 47145
+      },
+      "date": "2022-04-03T10:05:28Z",
+      "recipient": "Tavu"
+    },
+    {
+      "id": "48f30453-cf13-419a-96a7-c3acb034cf05",
+      "amount": {
+        "currency": "CLP",
+        "value": 20467
+      },
+      "date": "2022-04-01T15:18:39Z",
+      "recipient": "Skidoo"
+    },
+    {
+      "id": "1ac184c2-02e3-4cf4-aa86-41c597ee9f89",
+      "amount": {
+        "currency": "CLP",
+        "value": 14213
+      },
+      "date": "2022-03-28T21:03:27Z",
+      "recipient": "Kimia"
+    },
+    {
+      "id": "247bb9ff-03e5-4566-97b9-e74f62c361f3",
+      "amount": {
+        "currency": "CLP",
+        "value": 27047
+      },
+      "date": "2022-03-25T15:09:19Z",
+      "recipient": "Wordware"
+    },
+    {
+      "id": "42c48c74-63a5-4809-81d3-3168c1a7720c",
+      "amount": {
+        "currency": "CLP",
+        "value": 86107
+      },
+      "date": "2022-03-30T11:33:10Z",
+      "recipient": "Innotype"
+    },
+    {
+      "id": "3b49780f-4c9f-446d-a470-f055dd9421c4",
+      "amount": {
+        "currency": "CLP",
+        "value": 92492
+      },
+      "date": "2022-03-27T12:01:10Z",
+      "recipient": "Twitterbeat"
+    },
+    {
+      "id": "d6d5f1fa-774b-44eb-96b7-35cfd9ba379b",
+      "amount": {
+        "currency": "CLP",
+        "value": 36825
+      },
+      "date": "2022-03-20T06:20:50Z",
+      "recipient": "Gabtype"
+    },
+    {
+      "id": "a7e522b8-bce4-4343-9e76-438cef321e54",
+      "amount": {
+        "currency": "CLP",
+        "value": 98433
+      },
+      "date": "2022-04-09T18:36:40Z",
+      "recipient": "Edgeblab"
+    },
+    {
+      "id": "383c11bd-bb61-428c-8db7-3b841e6f6d80",
+      "amount": {
+        "currency": "CLP",
+        "value": 87548
+      },
+      "date": "2022-03-20T08:53:29Z",
+      "recipient": "Ooba"
+    },
+    {
+      "id": "26d527ab-d1a3-4452-9049-604b00ffe088",
+      "amount": {
+        "currency": "CLP",
+        "value": 53975
+      },
+      "date": "2022-04-15T09:26:53Z",
+      "recipient": "Skyvu"
+    },
+    {
+      "id": "297a02b9-4cd4-4f70-8b08-fcf7d71718e1",
+      "amount": {
+        "currency": "CLP",
+        "value": 74667
+      },
+      "date": "2022-04-15T17:03:39Z",
+      "recipient": "Topicware"
+    },
+    {
+      "id": "b7784827-3d73-4a93-bc3f-541227d3aae4",
+      "amount": {
+        "currency": "CLP",
+        "value": 68603
+      },
+      "date": "2022-04-11T07:58:05Z",
+      "recipient": "Jaxspan"
+    }
+  ]
+}

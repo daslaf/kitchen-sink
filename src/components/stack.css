@@ -1,0 +1,8 @@
+.ui-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-stack > * {
+  margin-bottom: 0.75rem;
+}

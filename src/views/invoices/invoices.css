@@ -1,0 +1,14 @@
+.ui-invoice {
+  padding: 0;
+  background-color: var(--background-100);
+}
+.ui-invoice:hover {
+  background-color: var(--background-200);
+}
+.ui-invoice-content {
+  cursor: pointer;
+  padding: var(--padding-300);
+}
+.ui-invoice-recipient {
+  margin-bottom: var(--size-200);
+}
