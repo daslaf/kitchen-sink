@@ -2,7 +2,7 @@
 
 Starter source code for my YouTube video about refactoring a React component.
 
-- [Check my video (Spanish)](https://youtu.be/1ovIEPGusJY)
+- [Check my video (Spanish)](https://www.youtube.com/watch?v=YJbsVEE4Cso)
 
 > The final solution is available in the branch called `final-solution`
 
